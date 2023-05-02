@@ -239,6 +239,214 @@ box-shadow: #9c9fa2;
   justify-content: space-between;
   margin-top: 40px;
 }
+
+/* //////////////////Samandar Page*/
+
+.section{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textOne{
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 150%;
+  text-align: center;
+  color: #4B5258;
+}
+
+.cardMain{
+position: relative;
+text-align: center;
+
+}
+
+.ImgMain{
+  width: 100%;
+}
+
+.cardBtn{
+ margin-top: -115px; 
+
+}
+
+.btnMain{
+  width: 275px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 100px; 
+  padding: 25px 50px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 20px;
+}
+
+.btnMain:hover{
+background: #FFC24D;
+box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+color: white;
+transition: .5s;
+}
+
+.check{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.checkbox{
+  margin-top: -10px;
+  margin-right: 20px;
+}
+.col-2{
+  
+  max-width: 180px;
+  height: 35vh;
+}
+.cardRight{
+  display: grid;
+  flex-wrap: wrap;  
+  padding-top: 30px;
+ text-align: center;
+ 
+}
+.cardLeft{
+  display: grid;
+  flex-wrap: wrap;  
+  padding-top: 30px;
+ text-align: center;
+
+}
+
+.Cardtext{
+  padding-top: 8px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.CardPRF{
+  font-size: 12px;
+
+}
+.CardImg{
+  margin: auto;
+  width: 50%;
+  background-color: rgb(32, 126, 234);
+  border-radius: 50%;
+}
+
+
+.sectionA{
+
+  background-image: linear-gradient(rgb(63, 118, 245), rgb(213, 225, 244));
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.TextGift{
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 150%;
+  color: #FFFFFF;
+  width: 430px;
+}
+
+.cardIcon{
+  display: flex;
+  background: #FFFFFF;
+border-radius: 30px;
+margin-top: 20px;
+width: 400px;
+padding: 16px 5px;
+
+}
+
+.imgIcon{
+  width: 22%;
+  height: 22%;
+  padding: 15px;
+}
+
+.divIcon{
+  padding-left: 10px;
+}
+
+.textIcon{
+  font-family: 'Mont';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+color: #4B5258;
+}
+
+.IcnPRF{
+  font-family: 'Mont';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 140%;
+color: #959A9D;
+padding-bottom: 10px;
+
+}
+
+.btnIcon{
+  border: 1px solid #43AAFF;
+border-radius: 100px;
+padding: 7px 16px;
+color: #43AAFF;
+background-color: white;
+}
+
+.btnIcon:hover{
+  background: #43AAFF;
+color: white;
+transition: .5s;
+border: none;
+}
+
+.pictureBox{
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+padding-top: 35px;
+padding-bottom: 20px;
+flex-wrap: wrap;
+
+}
+
+.pictures{
+ border-radius: 20px; 
+ width: 300px;
+ box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pOne{
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  color: #959A9D;   
+}
+
+
 @media (max-width:575px) {
     .nav-text{
         display: none;
@@ -309,6 +517,177 @@ box-shadow: #9c9fa2;
   display: grid;
   margin-top: 20px !important;
 }
+
+/* /////////////////Samandar//////////////// */
+
+   
+.container{
+  display: grid;
+  flex-wrap: wrap;
+}
+.container .col-2{
+margin: auto;
+}
+
+.textOne {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 96%;
+  text-align: center;
+  color: #4B5258;
+}
+
+.pOne {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 90%;
+  text-align: center;
+  color: #959A9D;
+}
+
+.ImgMain {
+  width: 328px;
+  margin-left: -20px;
+}
+.cardBtn {
+  margin-top: -51px;
+}
+
+.btnMain {
+  width: 166px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  padding: 7px 0px;
+  border-radius: 40px;
+  border: none;
+  margin-top: 14px;
+  font-size: 12px;
+}
+
+.check {
+  align-items: center;
+  padding-top: 5px;
+}
+
+.checkbox {
+  margin-top: 18px;
+  margin-right: 1px;
+}
+
+.checkPRF{    font-size: 10px;}
+
+.CardImg {
+  margin: auto;
+  width: 35%;
+  background-color: rgb(32, 126, 234);
+  border-radius: 50%;
+}
+
+.cardRight {
+  display: grid;
+  flex-wrap: wrap;
+  padding-top: 5px;
+}
+
+.cardLeft {
+  display: grid;
+  flex-wrap: wrap;
+  padding-top: 5px;
+}
+
+.CardPRF {
+  font-size: 9px;
+}
+
+.Cardtext {
+  padding-top: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.TextGift {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 113%;
+  color: #FFFFFF;
+  width: 287px;
+  text-align: center;
+}
+
+section {
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.cardIcon {
+  display: flex;
+  background: #FFFFFF;
+  border-radius: 20px;
+  margin-top: 10px;
+  width: 280px;
+}
+
+.textIcon {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 40%;
+  color: #4B5258;
+}
+
+.IcnPRF {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 40%;
+  color: #959A9D;
+  padding-top: 13px;
+}
+
+.btnIcon {
+  border: 1px solid #43AAFF;
+  border-radius: 25px;
+  padding: 3px 17px;
+  color: #43AAFF;
+  background-color: white;
+  font-size: 10px;
+}
+
+.imgIcon {
+  width: 25%;
+  height: 22%;
+  padding: 7px;
+}
+
+.Gift{
+  width: 100%;
+}
+
+.pictureBox {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+.pictures {
+  border-radius: 15px;
+  width: 220px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+ 
+}
+
+
 }
 
 
