@@ -160,7 +160,7 @@
 
 header{
     margin-top: 100px;
-    display: flex;
+    /* display: flex; */
 }
 .length{
     display: flex;
@@ -172,7 +172,437 @@ header{
 }
 
 
+/*                              Css Page of Asadbek                  */
+
+
+
+.head-main-asad {
+  margin-top: 50px;
+}
+
+.head-main-asad .nav-box-btn {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(29, 31, 33, 0.12);
+  border-radius: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.head-main-asad .nav-box-btn button {
+  padding: 25px 30px;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  line-height: 100%;
+  cursor: pointer;
+  text-align: right;
+  transition: .3s;
+}
+
+.head-main-asad .nav-box-btn button:hover {
+  border-radius: 120px;
+  color: #fff;
+  background: #43AAFF;
+}
+
+.main-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-text .percent-info {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 150%;
+  color: #4B5258;
+
+}
+
+.main-text .percent-info span {
+  font-size: 38px;
+  color: #707980;
+}
+
+.main-text .free-count {
+  margin: 10px 0px 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  color: #959A9D;
+}
+
+.kitchen-back {
+  background-color: #2571aa;
+  z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  width: 100%;
+  height: 90%;
+  z-index: -1;
+}
+
+.kitchen-back .kitchen-beck-img {
+  height: 700px;
+  background: transparent;
+  width: 100%;
+  margin: auto;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  background-image: url('..//figma-clean/img/kuhnya-skandinaviya-vid-2-1200x-ca2 1.svg');
+
+}
+
+.box-trafic {
+  text-align: center;
+  flex-direction: column;
+  width: 600px;
+  margin-top: 110px;
+  height: 600px;
+}
+
+.box-trafic .great-text {
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 30px 40px 0px 60px;
+}
+
+.box-trafic .btn-box-tg {
+  display: flex;
+  margin-left: 30px;
+  justify-content: center;
+}
+
+.box-trafic .btn-box-tg button {
+  padding: 20px 89px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: .4s;
+}
+
+.box-trafic .btn-box-tg button:hover {
+  box-shadow: 3px 3px 3px rgb(59, 58, 58, 55);
+}
+
+.box-trafic p {
+  font-weight: 300;
+  font-size: 20px;
+  padding: 10px 0px 5px 25px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.box-trafic .type-phone-num {
+  padding: 25px 185px 28px 65px;
+  border: none;
+  margin: 0px 0px 13px 10px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  margin-top: 20px;
+  color: #959A9D;
+  border-radius: 100px;
+  background: #FFFFFF;
+}
+
+.box-trafic .bonus-btn {
+  background: rgb(236, 179, 32);
+  box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  font-size: 13px;
+  padding: 30px 90px 30px 100px;
+  border: none;
+  margin: 0px 0px 10px 10px;
+  cursor: pointer;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: .3s;
+}
+
+.box-trafic .bonus-btn:hover {
+  background: rgb(255, 255, 255);
+  color: black;
+}
+
+.box-trafic .mark-config {
+  padding: 10px 160px 20px 160px;
+  text-align: start;
+  font-size: 14px;
+}
+
+.main-boxes .box-second-trafix {
+  width: 600px;
+  margin-top: 62px;
+  position: relative;
+  height: 600px;
+}
+
+.main-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-boxes .box-second-trafix .phone-in-hand {
+  z-index: 2;
+  opacity: 1;
+}
+
+.main-boxes .box-second-trafix .discount-box {
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  width: 440px;
+  height: 140px;
+  padding-left: 40px;
+  top: 430px;
+  left: 50px;
+  align-items: center;
+  position: absolute;
+}
+.box-second-trafix .discount-box .discount-info-box {
+  flex-direction: column;
+}
+
+
+.box-second-trafix .discount-box .discount-info-box h4 {
+  font-weight: 300;
+  font-size: 19px;
+  color: #43AAFF;
+}
+
+.box-second-trafix .discount-box .discount-info-box ul li {
+  font-weight: 300;
+  font-size: 15.5px;
+  line-height: 150%;
+  color: #4B5258;
+}
+
+.box-second-trafix .discount-box .discount-info-box ul {
+  padding-left: 15px;
+}
+
+.box-second-trafix .discount-box .discount-info-box p {
+  padding-left: 15px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #959A9D;
+
+}
+
+/*                             Phone Format                 */
+
+
+@media screen and (max-width:575px){
+  header .nav-box-btn {
+      background: #FFFFFF;
+      box-shadow: 0px 0px 20px rgba(29, 31, 33, 0.12);
+      border-radius: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  header .nav-box-btn button {
+      /* font-weight: 600; */
+      padding: 15px 15px;
+      background: transparent;
+      border: none;
+      font-size: 12px;
+      /* line-height: 100%; */
+      cursor: pointer;
+      text-align: right;
+      transition: .2s;
+  }
+  
+  header .nav-box-btn button:hover {
+      border-radius: 15px;
+      padding: 15px 15px;
+      color: #fff;
+      background: #43AAFF;
+  }
+
+  .main-text .percent-info {
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 150%;
+      color: #4B5258;
+  
+  }
+  
+  .main-text .percent-info span {
+      font-size: 16px;
+      color: #707980;
+  }
+
+  .main-text .free-count {
+      margin: 10px 0px 20px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #959A9D;
+  }
+
+  
+.box-trafic .great-text {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0px 20px 0px 20px;
+}
+
+.box-trafic p {
+  font-weight: 200;
+  font-size: 14px;
+  padding: 10px 0px 5px 5px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.box-trafic .btn-box-tg button {
+  padding: 10px 60px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: .4s;
+}
+
+.box-trafic .btn-box-tg button:hover {
+  box-shadow: 3px 3px 3px rgb(59, 58, 58, 55);
+}
+.box-trafic .type-phone-num {
+  padding: 15px 115.5px 18px 65px;
+  border: none;
+  margin: 0px 0px 20px 10px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  margin-top: 15px;
+  color: #959A9D;
+  border-radius: 100px;
+  background: #FFFFFF;
+}
+
+.box-trafic {
+  text-align: center;
+  flex-direction: column;
+  width: 350px;
+  margin-top: 10px;
+  height: 300px;
+}
+
+.box-trafic .bonus-btn {
+  background: rgb(236, 179, 32);
+  box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  font-size: 12px;
+  padding: 17px 60px 17px 60px;
+  border: none;
+  margin: 0px 0px 10px 10px;
+  cursor: pointer;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: .3s;
+}
+
+.box-trafic .bonus-btn:hover {
+  background: rgb(255, 255, 255);
+  color: black;
+}
+.box-trafic .mark-config {
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.main-boxes .box-second-trafix {
+  width: 100%;
+  margin-top: 90px;
+  position: relative;
+  height: 300px;
+}
+
+.main-boxes .box-second-trafix .phone-in-hand {
+  z-index: 2;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  opacity: 1;
+}
+
+.main-boxes .box-second-trafix .discount-box {
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 200px;
+  height: 65px;
+  justify-content:space-evenly ;
+  padding-left: 0px;
+  top: 200px;
+  left: 85px;
+  align-items: center;
+  position: absolute;
+}
+
+.box-second-trafix .discount-box .discount-info-box h4 {
+  font-weight: 300;
+  font-size: 10px;
+  color: #43AAFF;
+}
+
+.box-second-trafix .discount-box .discount-info-box ul li {
+  font-weight: 300;
+  font-size: 7px;
+  color: #4B5258;
+}
+
+.box-second-trafix .discount-box .discount-info-box ul {
+  padding-left: 12px;
+}
+
+.box-second-trafix .discount-box .discount-info-box p {
+  font-weight: 300;
+  font-size: 7px;
+  color: #959A9D;
+}
+.img-book{
+  width: 40px;
+}
+.img-coupon{
+  width: 40px;
+}
+}
+
+
+/*                              Css Page of Asadbek                  */
+
+
+
+
+
 @media (max-width:575px) {
+
+
+
     .nav-text{
         display: none;
     }
