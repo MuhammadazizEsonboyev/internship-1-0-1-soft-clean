@@ -174,7 +174,7 @@ border-radius: 100px;
 }
 header{
     margin-top: 100px;
-    display: flex;
+    /* display: flex; */
 }
 .length{
     display: flex;
@@ -386,6 +386,208 @@ text-align: center;
   margin-top: 20px;
 }
 
+
+  
+/*                      Asadbek second page ******************************/
+
+.asad_second_page {
+  margin-top: 40px;
+  background-image: url('./img/Фон.svg');
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -4;
+  display: flex;
+  margin-bottom: 60px;
+  justify-content: center;
+}
+
+.page_box_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.page_box_container .left_side_page {
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-left: 200px;
+  
+}
+
+.page_box_container .left_side_page h1 {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 120%;
+  color: #4B5258;
+}
+
+.page_box_container .left_side_page .p {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 150%;
+  margin-top: 15px;
+  color: #818689;
+}
+
+.page_box_container .left_side_page .left_box_left_side {
+  background: #FFFFFF;
+  margin-top: 50px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  text-align: center;
+}
+
+.page_box_container .left_side_page .left_box_left_side h3 {
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #4B5258;
+  align-items: center;
+}
+
+.page_box_container .left_side_page .left_box_left_side p {
+  font-weight: 400;
+  font-size: 16px;
+  padding:0px 60px 50px 30px; 
+  display: flex;
+  justify-content: center;
+  line-height: 150%;
+  color: #959A9D;
+}
+
+.page_box_container .left_side_page .left_box_left_side p img{
+  padding-right: 10px;
+  width: 8%;
+}
+
+.page_box_container .left_side_page .left_box_left_side .section-btn-box {
+  margin: 30px 0px;
+}
+
+.page_box_container .left_side_page .left_box_left_side .section-btn-box .btn-second-asad {
+  padding: 22px 60px;
+  border-radius: 20px;
+  border: none;
+  background: #7AD06D;
+}
+
+.page_box_container .left_side_page .left_box_left_side .section-btn-box button img {
+  background-color: #FFFFFF;
+}
+
+
+.page_box_container .left_side_page .left_box_left_side .section-btn-box .btn-first-asad {
+  padding: 22px 60px;
+  border-radius: 20px;
+  border: none;
+  background: #43AAFF;
+}
+
+
+@media screen and (max-width:575px){
+  .asad_second_page {
+    margin-top: 10px;
+    background-image: url('./img/Фон.svg');
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -4;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+.page_box_container .left_side_page .left_box_left_side .section-btn-box {
+  margin: 10px 0px;
+}
+
+  .page_box_container .left_side_page {
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .page_box_container .left_side_page h1 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #4B5258;
+  }
+  .page_box_container .left_side_page .left_box_left_side .section-btn-box button img {
+    background-color: #FFFFFF;
+    width: 15px;
+  }
+
+  .page_box_container .left_side_page .p {
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 120%;
+    margin-top: 5px;
+    text-align: center;
+    color: #FFC24D;
+  }
+
+  .page_box_container .left_side_page .left_box_left_side {
+    background: #FFFFFF;
+    margin-top: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    text-align: center;
+  }
+
+  .page_box_container .left_side_page .left_box_left_side h3 {
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 120%;
+    color: #4B5258;
+    align-items: center;
+  }
+  .page_box_container .left_side_page .left_box_left_side .section-btn-box .btn-second-asad {
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background: #7AD06D;
+  }
+
+  .page_box_container .left_side_page .left_box_left_side .section-btn-box .btn-first-asad {
+    padding: 10px 30px; 
+    border-radius: 20px;
+    border: none;
+    background: #43AAFF;
+  }
+
+  .page_box_container .left_side_page .left_box_left_side p {
+    font-weight: 400;
+    font-size: 12px;
+    padding:0px 60px 20px 50px; 
+    display: flex;
+    justify-content: center;
+    line-height: 120%;
+    color: #959A9D;
+  }
+  
+  .page_box_container .left_side_page .left_box_left_side p img{
+    padding-right: 5px;
+    width: 8%;
+  }
+
+  .right_side_page img{
+    width: 300px;
+  }
+}
+
+
+/*                              Asadbek     second    page         */
+
+
+
+
+
 .btnMain:hover{
 background: #FFC24D;
 box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
@@ -543,7 +745,437 @@ flex-wrap: wrap;
 }
 
 
-@media (max-width:575px) {
+/*                              Css Page of Asadbek                  */
+
+
+
+.head-main-asad {
+  margin-top: 50px;
+}
+
+.head-main-asad .nav-box-btn {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(29, 31, 33, 0.12);
+  border-radius: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.head-main-asad .nav-box-btn button {
+  padding: 25px 30px;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  line-height: 100%;
+  cursor: pointer;
+  text-align: right;
+  transition: .3s;
+}
+
+.head-main-asad .nav-box-btn button:hover {
+  border-radius: 120px;
+  color: #fff;
+  background: #43AAFF;
+}
+
+.main-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-text .percent-info {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 150%;
+  color: #4B5258;
+
+}
+
+.main-text .percent-info span {
+  font-size: 38px;
+  color: #707980;
+}
+
+.main-text .free-count {
+  margin: 10px 0px 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  color: #959A9D;
+}
+
+.kitchen-back {
+  background-color: #2571aa;
+  z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  width: 100%;
+  height: 90%;
+  z-index: -1;
+}
+
+.kitchen-back .kitchen-beck-img {
+  height: 700px;
+  background: transparent;
+  width: 100%;
+  margin: auto;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  background-image: url('..//figma-clean/img/kuhnya-skandinaviya-vid-2-1200x-ca2 1.svg');
+
+}
+
+.box-trafic {
+  text-align: center;
+  flex-direction: column;
+  width: 600px;
+  margin-top: 110px;
+  height: 600px;
+}
+
+.box-trafic .great-text {
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 30px 40px 0px 60px;
+}
+
+.box-trafic .btn-box-tg {
+  display: flex;
+  margin-left: 30px;
+  justify-content: center;
+}
+
+.box-trafic .btn-box-tg button {
+  padding: 20px 89px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: .4s;
+}
+
+.box-trafic .btn-box-tg button:hover {
+  box-shadow: 3px 3px 3px rgb(59, 58, 58, 55);
+}
+
+.box-trafic p {
+  font-weight: 300;
+  font-size: 20px;
+  padding: 10px 0px 5px 25px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.box-trafic .type-phone-num {
+  padding: 25px 185px 28px 65px;
+  border: none;
+  margin: 0px 0px 13px 10px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  margin-top: 20px;
+  color: #959A9D;
+  border-radius: 100px;
+  background: #FFFFFF;
+}
+
+.box-trafic .bonus-btn {
+  background: rgb(236, 179, 32);
+  box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  font-size: 13px;
+  padding: 30px 90px 30px 100px;
+  border: none;
+  margin: 0px 0px 10px 10px;
+  cursor: pointer;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: .3s;
+}
+
+.box-trafic .bonus-btn:hover {
+  background: rgb(255, 255, 255);
+  color: black;
+}
+
+.box-trafic .mark-config {
+  padding: 10px 160px 20px 160px;
+  text-align: start;
+  font-size: 14px;
+}
+
+.main-boxes .box-second-trafix {
+  width: 600px;
+  margin-top: 62px;
+  position: relative;
+  height: 600px;
+}
+
+.main-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-boxes .box-second-trafix .phone-in-hand {
+  z-index: 2;
+  opacity: 1;
+}
+
+.main-boxes .box-second-trafix .discount-box {
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  width: 440px;
+  height: 140px;
+  padding-left: 40px;
+  top: 430px;
+  left: 50px;
+  align-items: center;
+  position: absolute;
+}
+.box-second-trafix .discount-box .discount-info-box {
+  flex-direction: column;
+}
+
+
+.box-second-trafix .discount-box .discount-info-box h4 {
+  font-weight: 300;
+  font-size: 19px;
+  color: #43AAFF;
+}
+
+.box-second-trafix .discount-box .discount-info-box ul li {
+  font-weight: 300;
+  font-size: 15.5px;
+  line-height: 150%;
+  color: #4B5258;
+}
+
+.box-second-trafix .discount-box .discount-info-box ul {
+  padding-left: 15px;
+}
+
+.box-second-trafix .discount-box .discount-info-box p {
+  padding-left: 15px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #959A9D;
+
+}
+
+/*                             Phone Format                 */
+
+
+@media screen and (max-width:575px){
+  header .nav-box-btn {
+      background: #FFFFFF;
+      box-shadow: 0px 0px 20px rgba(29, 31, 33, 0.12);
+      border-radius: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  header .nav-box-btn button {
+      /* font-weight: 600; */
+      padding: 15px 15px;
+      background: transparent;
+      border: none;
+      font-size: 12px;
+      /* line-height: 100%; */
+      cursor: pointer;
+      text-align: right;
+      transition: .2s;
+  }
+  
+  header .nav-box-btn button:hover {
+      border-radius: 15px;
+      padding: 15px 15px;
+      color: #fff;
+      background: #43AAFF;
+  }
+
+  .main-text .percent-info {
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 150%;
+      color: #4B5258;
+  
+  }
+  
+  .main-text .percent-info span {
+      font-size: 16px;
+      color: #707980;
+  }
+
+  .main-text .free-count {
+      margin: 10px 0px 20px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #959A9D;
+  }
+
+  
+.box-trafic .great-text {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0px 20px 0px 20px;
+}
+
+.box-trafic p {
+  font-weight: 200;
+  font-size: 14px;
+  padding: 10px 0px 5px 5px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.box-trafic .btn-box-tg button {
+  padding: 10px 60px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: .4s;
+}
+
+.box-trafic .btn-box-tg button:hover {
+  box-shadow: 3px 3px 3px rgb(59, 58, 58, 55);
+}
+.box-trafic .type-phone-num {
+  padding: 15px 93px 18px 55px;
+  border: none;
+  margin: 0px 0px 20px 10px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  margin-top: 15px;
+  color: #959A9D;
+  border-radius: 100px;
+  background: #FFFFFF;
+}
+
+.box-trafic {
+  text-align: center;
+  flex-direction: column;
+  width: 350px;
+  margin-top: 10px;
+  height: 300px;
+}
+
+.box-trafic .bonus-btn {
+  background: rgb(236, 179, 32);
+  box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  font-size: 12px;
+  padding: 16px 56px 16px 56px;
+  border: none;
+  margin: 0px 0px 10px 10px;
+  cursor: pointer;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transition: .3s;
+}
+
+.box-trafic .bonus-btn:hover {
+  background: rgb(255, 255, 255);
+  color: black;
+}
+.box-trafic .mark-config {
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.main-boxes .box-second-trafix {
+  width: 100%;
+  margin-top: 90px;
+  position: relative;
+  height: 300px;
+}
+
+.main-boxes .box-second-trafix .phone-in-hand {
+  z-index: 2;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  opacity: 1;
+}
+
+.main-boxes .box-second-trafix .discount-box {
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 200px;
+  height: 65px;
+  justify-content:space-evenly ;
+  padding-left: 0px;
+  top: 200px;
+  left: 85px;
+  align-items: center;
+  position: absolute;
+}
+
+.box-second-trafix .discount-box .discount-info-box h4 {
+  font-weight: 300;
+  font-size: 10px;
+  color: #43AAFF;
+}
+
+.box-second-trafix .discount-box .discount-info-box ul li {
+  font-weight: 300;
+  font-size: 7px;
+  color: #4B5258;
+}
+
+.box-second-trafix .discount-box .discount-info-box ul {
+  padding-left: 12px;
+}
+
+.box-second-trafix .discount-box .discount-info-box p {
+  font-weight: 300;
+  font-size: 7px;
+  color: #959A9D;
+}
+.img-book{
+  width: 40px;
+}
+.img-coupon{
+  width: 40px;
+}
+}
+
+
+/*                              Css Page of Asadbek                  */
+
+
+
+
+
+@media screen and (max-width:575px) {
+
+
+
     .nav-text{
         display: none;
     }
@@ -1175,3 +1807,166 @@ section {
     border: none;
   }
   
+
+  /*                           Azizbek Css style                 */
+
+
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ispolnim {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color: #4B5258;
+}
+
+.posmot {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  color: #959A9D;
+  margin-top: 10px;
+  margin-bottom: 54px;
+}
+
+.ardi {
+  margin: auto;
+  width: 1024px;
+  height: 450px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  display: flex;
+}
+
+.vana {
+  padding: 10px;
+}
+
+.ardi_text {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  color: #4B5258;
+  margin-top: 61px;
+  margin-bottom: 25px;
+}
+.oop{
+  margin-left: 49px;
+}
+.listi{
+  list-style: none;
+}
+.itemi{
+  font-family: 'Mont';
+font-style: normal;
+font-weight: 600;
+line-height: 150%;
+font-size: 14px;
+color:#959A9D;
+margin-bottom: 8px;
+}
+.itemi_span{
+  color: #4B5258;
+}
+.btn88{
+  font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+text-align: center;
+color: #43AAFF;
+border: 1px solid #43AAFF;
+border-radius: 100px;
+width: 206px;
+height: 60px;
+background-color: transparent;
+margin-top: 13px;
+cursor: pointer;
+} 
+
+/* --------------------------------Responsive----------------- */
+@media screen and (max-width: 575px) {
+  .ispolnim {
+      font-family: 'Mont';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      text-align: center;
+      color: #4B5258;
+  }
+  .posmot {
+      font-family: 'Mont';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 110%;
+      text-align: center;
+      color: #959A9D;
+      margin-top: 10px;
+      margin-bottom: 8px;
+  }
+  .ardi {
+      margin: auto;
+      width: 85%;
+      height: 100%;
+      background: #FFFFFF;
+       background: blue; 
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 30px;
+      display: block;
+  }
+  .vana {
+      padding: 15px;
+      width: 100%;
+  }
+  .oop{
+      margin-left: 15px;
+  }
+  .ardi_text {
+      font-family: 'Mont';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 15px;
+      color: #4B5258;
+      margin-top: 2px;
+      margin-bottom: 20px;
+  }
+  .itemi{
+      font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 10px;
+  color:#959A9D;
+  margin-bottom: 2px;
+  }
+  .btn88 {
+      font-family: 'Mont';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 8px;
+      text-align: center;
+      color: #43AAFF;
+      border: 1px solid #43AAFF;
+      border-radius: 100px;
+      width: 96px;
+      height: 30px;
+      background-color: transparent;
+      margin-top: 10px;
+      cursor: pointer;
+      margin-bottom: 15px;
+  }
+  }
+  /*                           Azizbek Css style                 */
