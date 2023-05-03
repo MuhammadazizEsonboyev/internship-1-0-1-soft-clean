@@ -177,10 +177,10 @@ header{
 .length{
     display: flex;
 }
-.iconss{
-    display: none !important;
-    margin-left: 218px;
-    margin-top: -128px;
+.iconss {
+  display: none !important;
+  margin-left: 235px;
+  margin-top: -113px;
 }
 .imgad{
   margin-left: 153px;
@@ -238,6 +238,9 @@ box-shadow: #9c9fa2;
 
  
 @media (max-width:575px) {
+  .logo_one button {
+    display: none;
+  }
     .nav-text{
         display: none;
     }
@@ -261,22 +264,21 @@ box-shadow: #9c9fa2;
         font-size: 14px;
         text-align: center;
     }
-    .same button {
+    /* .same button {
     margin-left: -12px;
-    }
+    } */
  
     .logo_one h2{
-        margin-top: 2px;
-    margin-left: 0px;
+      margin-top: 2px;
+      margin-left: 0px;
 
     }
     .logo_one p{
-        margin-top: 1px;
-        margin-left: -90px;
-    margin-left: 0px;
-
+      display: none;
+      
     }
     .logo_one h3{
+      display: none;
       margin-top: 3px;
       margin-left: 1px;
     }
@@ -301,9 +303,11 @@ box-shadow: #9c9fa2;
         display: none;
     }
     .fa-brands{
+      display: none !important;
         margin-top: 20px;
     }
     .iconss{
+
         display: block !important;
     }
 .big_box{
