@@ -24,6 +24,7 @@
     color: #4B5258;
   }
   .logo_one {
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,7 +45,7 @@
     font-size: 20px;
     line-height: 140%;
     color: #43AAFF;
-    margin-left: 0px;
+    margin-left: -85px;
 }
 
 .logo_one p {
@@ -54,7 +55,7 @@
     font-size: 16px;
     line-height: 140%;
     color: #959A9D;
-    margin-left: 0px;
+    margin-left: -85px;
 }
 
 .logo_one h3 {
@@ -135,14 +136,13 @@
 
     line-height: 150%;
     letter-spacing: 0.15em;
+    font-family: 'Mont';
     text-transform: uppercase;
     color: #FFFFFF;
-
     position: absolute;
 width: 297px;
 height: 80px;
-/* left: 590px;*/
-/* margin-top: 486px;  */
+font-size: 15px;
 background: #43AAFF;
 box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
 border-radius: 100px;
@@ -154,17 +154,14 @@ border-radius: 100px;
     font-family: 'Mont';
     /* font-style: normal; */
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 150%;
     letter-spacing: 0.15em;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     color: #FFFFFF;
     margin-left: 15px;
-
-
 width: 265px;
 height: 80px;
-/* left: 762px; */
 top: 436px;
 background: #FFC24D;
 box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
@@ -208,6 +205,9 @@ box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
 box-shadow: #9c9fa2;
 }
 
+.box_six:hover{
+  opacity: 0.5;
+}
 
 .box_six1{
   width: 278.54px;
@@ -216,7 +216,12 @@ box-shadow: #9c9fa2;
   box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
   box-shadow: #9c9fa2;
   background: #FFC24D;
-  }
+}
+
+.box_six1:hover{
+  opacity: 0.2;
+
+}
   .box_six1 h5{
     position: absolute;
     width: 190.9px;
