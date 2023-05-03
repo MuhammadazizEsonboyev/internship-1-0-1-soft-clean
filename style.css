@@ -1076,7 +1076,7 @@ flex-wrap: wrap;
 
 
 
-@media (max-width:575px) {
+@media screen and (max-width:575px) {
 
 
 
@@ -1711,3 +1711,166 @@ section {
     border: none;
   }
   
+
+  /*                           Azizbek Css style                 */
+
+
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ispolnim {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color: #4B5258;
+}
+
+.posmot {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  color: #959A9D;
+  margin-top: 10px;
+  margin-bottom: 54px;
+}
+
+.ardi {
+  margin: auto;
+  width: 1024px;
+  height: 450px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  display: flex;
+}
+
+.vana {
+  padding: 10px;
+}
+
+.ardi_text {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  color: #4B5258;
+  margin-top: 61px;
+  margin-bottom: 25px;
+}
+.oop{
+  margin-left: 49px;
+}
+.listi{
+  list-style: none;
+}
+.itemi{
+  font-family: 'Mont';
+font-style: normal;
+font-weight: 600;
+line-height: 150%;
+font-size: 14px;
+color:#959A9D;
+margin-bottom: 8px;
+}
+.itemi_span{
+  color: #4B5258;
+}
+.btn88{
+  font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+text-align: center;
+color: #43AAFF;
+border: 1px solid #43AAFF;
+border-radius: 100px;
+width: 206px;
+height: 60px;
+background-color: transparent;
+margin-top: 13px;
+cursor: pointer;
+} 
+
+/* --------------------------------Responsive----------------- */
+@media screen and (max-width: 575px) {
+  .ispolnim {
+      font-family: 'Mont';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      text-align: center;
+      color: #4B5258;
+  }
+  .posmot {
+      font-family: 'Mont';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 110%;
+      text-align: center;
+      color: #959A9D;
+      margin-top: 10px;
+      margin-bottom: 8px;
+  }
+  .ardi {
+      margin: auto;
+      width: 85%;
+      height: 100%;
+      background: #FFFFFF;
+       background: blue; 
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 30px;
+      display: block;
+  }
+  .vana {
+      padding: 15px;
+      width: 100%;
+  }
+  .oop{
+      margin-left: 15px;
+  }
+  .ardi_text {
+      font-family: 'Mont';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 15px;
+      color: #4B5258;
+      margin-top: 2px;
+      margin-bottom: 20px;
+  }
+  .itemi{
+      font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 10px;
+  color:#959A9D;
+  margin-bottom: 2px;
+  }
+  .btn88 {
+      font-family: 'Mont';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 8px;
+      text-align: center;
+      color: #43AAFF;
+      border: 1px solid #43AAFF;
+      border-radius: 100px;
+      width: 96px;
+      height: 30px;
+      background-color: transparent;
+      margin-top: 10px;
+      cursor: pointer;
+      margin-bottom: 15px;
+  }
+  }
+  /*                           Azizbek Css style                 */
