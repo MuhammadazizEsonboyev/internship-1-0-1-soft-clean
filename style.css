@@ -23,6 +23,18 @@
     text-align: right;
     color: #4B5258;
   }
+.logo_one button :hover{
+  padding: 20px 20px;
+  border: 1px solid #1796fd;
+  border-radius: 100px;
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: right;
+  color: #11191f;
+}
   .logo_one {
     margin-top: 20px;
     display: flex;
@@ -45,7 +57,7 @@
     font-size: 20px;
     line-height: 140%;
     color: #43AAFF;
-    margin-left: -85px;
+    margin-left: -35px;
 }
 
 .logo_one p {
@@ -55,7 +67,7 @@
     font-size: 16px;
     line-height: 140%;
     color: #959A9D;
-    margin-left: -85px;
+    margin-left: -35px;
 }
 
 .logo_one h3 {
@@ -142,7 +154,7 @@
     position: absolute;
 width: 297px;
 height: 80px;
-font-size: 15px;
+font-size: 13px;
 background: #43AAFF;
 box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
 border-radius: 100px;
@@ -154,7 +166,7 @@ border-radius: 100px;
     font-family: 'Mont';
     /* font-style: normal; */
     font-weight: 600;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 150%;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -219,7 +231,7 @@ box-shadow: #9c9fa2;
 }
 
 .box_six1:hover{
-  opacity: 0.2;
+  opacity: 0.5;
 
 }
   .box_six1 h5{
@@ -237,6 +249,7 @@ box-shadow: #9c9fa2;
   
 .big_box{
   display: flex;
+  gap:40px;
   justify-content: space-between;
   margin-top: 40px;
 }
