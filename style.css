@@ -5,39 +5,36 @@
     position: 0;
     box-sizing: border-box;
 }
- .col1, .col2, .col3{
-  width: 280px;
-  float: left;
-  margin: 10px;
- }
 
-.container {
+.container3 {
     width: 70%;
     margin: 0 auto;
 }
+
 .logo_one button {
-    padding: 10px 20px;
+    padding: 20px 20px;
     border: 1px solid #43AAFF;
     border-radius: 100px;
     font-family: 'Mont';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 100%;
     text-align: right;
     color: #4B5258;
-}
-.logo_one {
+  }
+  .logo_one {
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.fa-brands {
-    font-size: 30px;
-}
-
-.fa-whatsapp {
+  }
+  
+  .fa-brands {
+    font-size: 45px;
+  }
+  
+  .fa-whatsapp {
     margin-left: 10px;
 }
 
@@ -45,28 +42,27 @@
     font-family: 'Mont';
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 140%;
     color: #43AAFF;
-    margin-left: -70px;
+    margin-left: -85px;
 }
 
 .logo_one p {
     font-family: 'Mont';
     font-style: normal;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 16px;
     line-height: 140%;
     color: #959A9D;
-    margin-left: -70px;
-
+    margin-left: -85px;
 }
 
 .logo_one h3 {
     font-family: 'Mont';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 100%;
     color: #4B5258;
     margin-left: 15px;
@@ -85,7 +81,7 @@
     font-family: 'Mont';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 140%;
     text-align: right;
     color: #4B5258;
@@ -104,7 +100,7 @@
     margin-top: 40px;
     padding: 15px 30px;
     border-radius: 100px;
-    border: none;
+      border: none;
 }
 
 .same h2 {
@@ -140,35 +136,32 @@
 
     line-height: 150%;
     letter-spacing: 0.15em;
+    font-family: 'Mont';
     text-transform: uppercase;
     color: #FFFFFF;
-
     position: absolute;
 width: 297px;
 height: 80px;
-left: 590px;
-top: 386px;
+font-size: 15px;
 background: #43AAFF;
 box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
 border-radius: 100px;
 }
 .long {
+  margin-top: 136px !important;
     background: #FFC24D;
     box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
     font-family: 'Mont';
     /* font-style: normal; */
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 150%;
     letter-spacing: 0.15em;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     color: #FFFFFF;
     margin-left: 15px;
-
-
 width: 265px;
 height: 80px;
-/* left: 762px; */
 top: 436px;
 background: #FFC24D;
 box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
@@ -181,10 +174,10 @@ header{
 .length{
     display: flex;
 }
-.iconss{
-    display: none !important;
-    margin-left: 200px;
-    margin-top: -180px;
+.iconss {
+  display: none !important;
+  margin-left: 235px;
+  margin-top: -113px;
 }
 .imgad{
   margin-left: 153px;
@@ -212,6 +205,9 @@ box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
 box-shadow: #9c9fa2;
 }
 
+.box_six:hover{
+  opacity: 0.5;
+}
 
 .box_six1{
   width: 278.54px;
@@ -220,7 +216,12 @@ box-shadow: #9c9fa2;
   box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
   box-shadow: #9c9fa2;
   background: #FFC24D;
-  }
+}
+
+.box_six1:hover{
+  opacity: 0.2;
+
+}
   .box_six1 h5{
     position: absolute;
     width: 190.9px;
@@ -239,6 +240,95 @@ box-shadow: #9c9fa2;
   justify-content: space-between;
   margin-top: 40px;
 }
+
+ 
+@media (max-width:575px) {
+  .logo_one button {
+    display: none;
+  }
+    .nav-text{
+        display: none;
+    }
+    .logo_one{
+      margin: auto;
+        display: grid;
+    }
+    .length{
+        display: grid;
+    }
+    .girls{
+        width: 100%;
+    }
+    .same h2{
+        text-align: center;
+        font-size: 18px;
+        margin-left: -37px;
+    }
+    .same p{
+      margin-left: -37px;
+        font-size: 14px;
+        text-align: center;
+    }
+    /* .same button {
+    margin-left: -12px;
+    } */
+ 
+    .logo_one h2{
+      margin-top: 2px;
+      margin-left: 0px;
+
+    }
+    .logo_one p{
+      display: none;
+      
+    }
+    .logo_one h3{
+      display: none;
+      margin-top: 3px;
+      margin-left: 1px;
+    }
+    .logo_one h4{
+        margin-left: 0px;
+    }
+    .logo_one span{
+        padding-top: 100px;
+        margin-left: 150px;
+    }
+    .logo_one button{
+        margin-top: 20px;
+        margin: auto;
+    }
+    header{
+      margin-top: 20px;
+    }
+    .girls{
+        margin-top: 100px;
+    }
+    .circle{
+        display: none;
+    }
+    .fa-brands{
+      display: none !important;
+        margin-top: 20px;
+    }
+    .iconss{
+
+        display: block !important;
+    }
+.big_box{
+  display: grid;
+  margin-top: 20px !important;
+}
+ .box_six1{
+  margin-top: 20px;
+}
+.box_six{
+  margin-top: 20px;
+} 
+}
+
+
+
 
 /* //////////////////Samandar Page*/
 
