@@ -145,7 +145,6 @@
 
 .street {
     background: #43AAFF;
-
     line-height: 150%;
     letter-spacing: 0.15em;
     font-family: 'Mont';
@@ -155,7 +154,6 @@
 width: 297px;
 height: 80px;
 font-size: 13px;
-background: #43AAFF;
 box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
 border-radius: 100px;
 }
@@ -164,19 +162,15 @@ border-radius: 100px;
     background: #FFC24D;
     box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
     font-family: 'Mont';
-    /* font-style: normal; */
     font-weight: 600;
     font-size: 13px;
     line-height: 150%;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-left: 15px;
 width: 265px;
 height: 80px;
 top: 436px;
-background: #FFC24D;
-box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
 border-radius: 100px;
 }
 header{
@@ -249,8 +243,8 @@ box-shadow: #9c9fa2;
   
 .big_box{
   display: flex;
-  gap:40px;
-  justify-content: space-between;
+  gap:45px;
+  justify-content: space-around;
   margin-top: 40px;
 }
 
