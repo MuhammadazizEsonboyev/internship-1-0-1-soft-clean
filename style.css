@@ -173,8 +173,7 @@ height: 80px;
 border-radius: 100px;
 }
 header{
-    margin-top: 100px;
-    /* display: flex; */
+    margin-top:  0px;
 }
 .length{
     display: flex;
@@ -413,7 +412,7 @@ text-align: center;
 .page_box_container .left_side_page {
   margin-bottom: 100px;
   margin-top: 50px;
-  margin-left: 200px;
+  margin-left: 130px;
   
 }
 
@@ -606,8 +605,8 @@ transition: .5s;
   margin-top: -10px;
   margin-right: 20px;
 }
+
 .col-2{
-  
   max-width: 180px;
   height: 35vh;
 }
@@ -1819,6 +1818,16 @@ section {
     font-size: 30px;
     text-align: center;
     color: #4B5258;
+} 
+
+.ispolnim {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color: #4B5258;
+
 }
 
 .posmot {
@@ -1845,6 +1854,12 @@ section {
 
 .vana {
     padding: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .ardi_text {
