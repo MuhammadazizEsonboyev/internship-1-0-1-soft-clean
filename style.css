@@ -1,200 +1,154 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;600;800&display=swap');
-
 * {
-    margin: 0;
-    position: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
 
-.container3 {
-    width: 70%;
-    margin: 0 auto;
 }
+.container_biri {
+  width:80%;
+  margin: auto;
 
-.logo_one button {
-    padding: 20px 20px;
-    border: 1px solid #43AAFF;
-    border-radius: 100px;
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 100%;
-    text-align: right;
-    color: #4B5258;
-  }
-.logo_one button :hover{
-  padding: 20px 20px;
-  border: 1px solid #1796fd;
-  border-radius: 100px;
+}
+.textPhone {
+  width: 150px;
+}
+.phone_number {
   font-family: 'Mont';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
-  text-align: right;
-  color: #11191f;
+  color: #4B5258;
 }
-  .logo_one {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.week {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  color: #959A9D;
+  margin-left: 10px;
+}
+.speed {
+  width: 200px;
+  display: flex;
+  text-align: end;
+  margin-right: 20px;
+}
+.btn {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  background: transparent;
+  color: #4B5258;
+  width: 200px;
+  height: 55px;
+  border: 1px solid #43AAFF;
+  border-radius: 100px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.leftNav{
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.imageGroup{
+  padding-right: 50px;
+}
+
+
+/* //////header style */
+
+.world_in_h1{
+  position: absolute;
+  width: 535px;
+  height: 135px;
+  top: 187px;
   
-  .fa-brands {
-    font-size: 45px;
-  }
-  
-  .fa-whatsapp {
-    margin-left: 10px;
+  font-family: 'Mont';
+  font-weight: 800;
+  font-size: 30px;
+  color: #4B5258;
 }
 
-.logo_one h2 {
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 140%;
-    color: #43AAFF;
-    margin-left: -35px;
+.world_in_h1 span{
+  width: 316px;
+  height: 27px;
+  margin-left: 10px;
+  margin-top: 12px;
+  font-family: 'Mont';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #4B5258;
 }
+.world_in_paragrow{
+  position: absolute;
+width: 453px;
+height: 58px;
+top: 328px;
+font-family: 'Mont';
+font-weight: 600;
+font-size: 18px;
+line-height: 160%;
+color: #4B5258;
+}
+.btn_blue{
+  position: absolute;
+  width: 297px;
+  height: 80px;
+  top: 436px;
+  background: #43AAFF;
+  box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  border: none;
+  color: aliceblue;
 
-.logo_one p {
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    color: #959A9D;
-    margin-left: -35px;
 }
-
-.logo_one h3 {
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 100%;
-    color: #4B5258;
-    margin-left: 15px;
-}
-
-.logo_one h4 {
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 100%;
-    color: #959A9D;
-}
-
-.logo_one span {
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    text-align: right;
-    color: #4B5258;
-}
-
-.circle {
-    display: flex;
-    align-items: center;
-}
-
-.circle h4 {
-    margin-left: 10px;
-}
-
-.same button {
-    margin-top: 40px;
-    padding: 15px 30px;
-    border-radius: 100px;
-      border: none;
-}
-
-.same h2 {
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 150%;
-    color: #4B5258;
-}
-
-.same span {
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 150%;
-    color: #4B5258;
-}
-
-.same p {
-    margin-top: 30px;
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 160%;
-    color: #4B5258;
-}
-
-.street {
-    background: #43AAFF;
-
-    line-height: 150%;
-    letter-spacing: 0.15em;
-    font-family: 'Mont';
-    text-transform: uppercase;
-    color: #FFFFFF;
-    position: absolute;
-width: 297px;
-height: 80px;
-font-size: 13px;
-background: #43AAFF;
-box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
-border-radius: 100px;
-}
-.long {
-  margin-top: 136px !important;
-    background: #FFC24D;
-    box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
-    font-family: 'Mont';
-    /* font-style: normal; */
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 150%;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-left: 15px;
-width: 265px;
-height: 80px;
-top: 436px;
-background: #FFC24D;
-box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
-border-radius: 100px;
-}
-header{
-    margin-top: 100px;
-    /* display: flex; */
-}
-.length{
-    display: flex;
-}
-.iconss {
-  display: none !important;
-  margin-left: 235px;
-  margin-top: -113px;
+.btn_yellow{
+  position: absolute;
+  width: 265px;
+  height: 80px;
+  top: 436px;
+  margin-left: 302px;
+  background: #FFC24D;
+  box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  border: none;
+  color: aliceblue;
 }
 .imgad{
   margin-left: 153px;
   border-radius: 0px 0px 25px 0px ;
   margin-top: 29px;
+}
+.imgad1{
+  margin-left: 187px;
+  border-radius: 0px 0px 25px 0px ;
+  margin-top: -116px;
+}
+.imgad2{
+  margin-left: 183px;
+  border-radius: 0px 0px 25px 0px ;
+  margin-top: -121px;
+}
+.imgad3{
+  margin-left: 159px;
+  border-radius: 0px 0px 25px 0px ;
+  margin-top: -103px;
 }
 .box_six h5{
   position: absolute;
@@ -232,10 +186,8 @@ box-shadow: #9c9fa2;
 
 .box_six1:hover{
   opacity: 0.5;
-
 }
   .box_six1 h5{
-    position: absolute;
     width: 190.9px;
     margin: 30px;
     height: 59.65px;
@@ -246,102 +198,218 @@ box-shadow: #9c9fa2;
     line-height: 140%;
     color: #ffffff;
   }  
+
+
+  .box_six_alohida:hover{
+    opacity: 0.5;
+  }
   
+  .box_six_alohida{
+    width: 278.54px;
+    height: 179.13px;
+    background: #43AAFF;
+    border-radius: 30px;
+    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
+    box-shadow: #9c9fa2;
+  }
+  .box_six_alohida h5{
+    width: 190.9px;
+    margin: 30px;
+    height: 59.65px;
+    margin-top: 60.17px; 
+    font-family: 'Mont';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 140%;
+    color: #ffffff;
+  }  
+
+  /* //////// */
 .big_box{
   display: flex;
   gap:40px;
-  justify-content: space-between;
-  margin-top: 40px;
+  margin-top:60px;
+}
+.img_backround{
+  margin-top:-50px;
+}
+.fot{
+  display: flex;
+margin-top: 60px;
+margin-bottom: 50px;
+}
+.fot .ul_list{
+  display: flex;
+  gap: 30px;
+}
+.list_style_for{
+width: 197px;
+margin-top: 35px;
+font-family: 'Mont';
+font-weight: 500;
+font-size: 12px;
+color: #4B5258;
+list-style: none;
+}
+#icons_for_foot{
+  margin-top: 20px;
+width: 35px;
+height: 35px;
+}
+.iconss{
+display: none !important;
 }
 
- 
-@media (max-width:575px) {
-  .logo_one button {
+ @media (max-width:575px) {
+
+
+  #bosh_header{
+display: grid;
+flex-direction: column;
+  }
+  .btn_group .btn {
     display: none;
   }
-    .nav-text{
+    .tg{
         display: none;
     }
-    .logo_one{
-      margin: auto;
-        display: grid;
-    }
-    .length{
-        display: grid;
-    }
-    .girls{
-        width: 100%;
-    }
-    .same h2{
-        text-align: center;
-        font-size: 18px;
-        margin-left: -37px;
-    }
-    .same p{
-      margin-left: -37px;
-        font-size: 14px;
-        text-align: center;
-    }
-    /* .same button {
-    margin-left: -12px;
-    } */
- 
-    .logo_one h2{
-      margin-top: 2px;
-      margin-left: 0px;
-
-    }
-    .logo_one p{
+    .what{
       display: none;
-      
     }
-    .logo_one h3{
-      display: none;
-      margin-top: 3px;
-      margin-left: 1px;
-    }
-    .logo_one h4{
-        margin-left: 0px;
-    }
-    .logo_one span{
-        padding-top: 100px;
-        margin-left: 150px;
-    }
-    .logo_one button{
-        margin-top: 20px;
-        margin: auto;
-    }
-    header{
-      margin-top: 20px;
-    }
-    .girls{
-        margin-top: 100px;
-    }
-    .circle{
-        display: none;
-    }
-    .fa-brands{
-      display: none !important;
-        margin-top: 20px;
-    }
-    .iconss{
-
-        display: block !important;
-    }
+.textNav .speed{
+  display: none;
+}
+.leftNav .textPhone .phone_number{
+  display: none;
+}
+.leftNav .textPhone .week{
+display: none;
+}
 .big_box{
+  margin-top:460px;
+}
+.imgad {
+  margin-left: 154px;
+  border-radius: 0px 0px 25px 0px;
+  margin-top: 29px;
+}
+.imgad1 {
+  margin-left: 187px;
+  border-radius: 0px 0px 25px 0px;
+  margin-top: -116px;
+}
+.imgad2{
+  margin-left: 184px;
+  border-radius: 0px 0px 25px 0px;
+  margin-top: -121px;
+}
+.imgad3{
+  margin-left: 160px;
+  border-radius: 0px 0px 25px 0px;
+  margin-top: -102px;
+}
+.btn_both{
   display: grid;
   margin-top: 20px !important;
+  margin-left: 40px;
+}
+
+.btn_blue{
+  position: absolute;
+  width: 125px;
+  height: 40px;
+  top: 400px;
+  font-size: 10px;
+}
+.btn_yellow{
+  position: absolute;
+  width: 125px;
+  height: 40px;
+  top: 400px;
+  margin-left: 148px;
+  font-size: 10px;
+}
+#bosh_header #fon_img{
+  display: none;}
+
+  .world_in_h1 {
+    width: 220px;
+    margin-left: 12px;
+    top: 110px;
+    font-family: 'Mont';
+    font-weight: 800;
+    font-size: 13px;
+}
+.world_in_h1 span {
+  width: 234px;
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 7px;
+}
+.world_in_paragrow {
+  text-align: center;
+  width: 181px;
+  top: 179px;
+  font-weight: 400;
+  font-size: 9px;
+  margin-left: 12px;
+
+}
+.big_box{
+  display: grid;
+    margin-top: 133px;
+    margin-left: 8px;
 }
  .box_six1{
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: -24px;
 }
-.box_six{
-  margin-top: 20px;
-} 
+.box_six_alohida{
+  margin-top: 10px;
+  margin-left: -24px;
+}
+.btn_both {
+  display: grid;
+  margin-top: 20px !important;
+  margin-left: -13px;
 }
 
+.box_six {
+  margin-top:70px;
+  margin-left: -24px;
+}
+.container_biri {
+  width: 80%;
+}
+.fot{
+  display: grid;
+}
+.ul_list{
+  display: grid;
+  flex-wrap: wrap;
+}
 
+.list_style_for {
+margin-top: 0px;
+text-align: center;
+margin-bottom: -120px;
 
+margin-left: 27px;
+}
+#icons_for_foot {
+  margin-top: 0px;
+  width: 30px;
+  height: 30px;
+  margin-left: 55px;
+}
+#for_icon_in_footer{
+ margin-left: 2pc;
+ margin-bottom: 20px;
+}
+.iconss{
+  display: block !important;
+  }
+}
 
 /* //////////////////Samandar Page*/
 
@@ -507,6 +575,7 @@ text-align: center;
     display: flex;
     justify-content: center;
   }
+
 
   
 .page_box_container .left_side_page .left_box_left_side .section-btn-box {
@@ -787,7 +856,7 @@ flex-wrap: wrap;
 }
 
 .main-text {
-  text-align: center;
+  /* text-align: center; */
   margin-top: 20px;
 }
 
