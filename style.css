@@ -1454,23 +1454,24 @@ section {
     padding-bottom: 70px;
     color: #959a9d;
   }
-  .main {
+  .mainBoburPage {
     width: 100%;
     height: auto;
     display: flex;
+    background: #F2F9FF;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: pop;
     padding: 50px;
   }
-  .main .heading {
+  .mainBoburPage .heading {
     text-align: center;
     font-size: 25px;
     margin-bottom: 10px;
     position: relative;
   }
-  .main span {
+  .mainBoburPage span {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .containerFactCard {
@@ -1482,10 +1483,10 @@ section {
     flex-wrap: wrap;
   }
   .containerFactCard .card {
-    width: 230px;
-    height: 350px;
+    width: 328px;
+    height: 410px;
     position: relative;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #fff;
     overflow: hidden;
     box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
@@ -1498,7 +1499,8 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgb(30, 83, 196);
+    /* background-color: rgb(30, 83, 196); */
+    background-color: #fff;
   }
   .card img {
     width: 100%;
@@ -1507,13 +1509,13 @@ section {
     top: 0;
     left: 0;
     object-fit: fit;
-    transition: 0.6s;
-    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
-    z-index: 99;
+    transition: 0.4s;
+    /* box-shadow: 0px 0px 22px  rgba(0, 0, 0, 0.37); */
+    z-index: 1;
   }
   .card:hover img {
-    transform: scale(0.5) translateY(-120px);
-    border-radius: 10px;
+    transform: scale(0.5) translateY(-50px);
+    border-radius: 0px;
   }
   .card .details {
     width: 100%;
@@ -1525,8 +1527,8 @@ section {
     justify-content: flex-end;
     align-items: center;
     padding-bottom: 40px;
-    transform: translateY(100%);
-    transition: 0.6s;
+    /* transform: translateY(100%); */
+    transition: 0.4s;
   }
   .card:hover .details {
     transform: translateY(0);
@@ -1558,7 +1560,7 @@ section {
   }
   .details .social-links a:hover {
     transform: rotate(360deg);
-    background-color: rgb(0, 81, 255);
+    background-color: #e7b251;
     color: #fff;
   }
   
@@ -1582,18 +1584,6 @@ section {
     width: 100vmin;
     border-radius: 20px;
     height: 20em;
-    border: 8px solid;
-    border-image: linear-gradient(
-        -50deg,
-        rgb(0, 117, 128),
-        #200aaa,
-        rgb(116, 204, 239),
-        green,
-        rgb(130, 185, 194),
-        #30bfd8,
-        rgb(15, 23, 140)
-      )
-      1;
     margin: 2rem auto;
     transition: 0.3s ease-in-out;
     position: relative;
@@ -1605,25 +1595,18 @@ section {
     width: 100%;
     height: 100%;
     padding: 1rem 0.75rem;
-    background: #1411b8;
+    background:  #FFFFFF;
     transition: 0.4s ease-in-out;
     z-index: 1;
   }
   .overlay-content {
     display: flex;
+    color: black;
     flex-direction: column;
     justify-content: space-between;
     width: 15vmin;
     height: 100%;
     padding: 0.5rem 0 0 0.5rem;
-    border: 3px solid;
-    border-image: linear-gradient(
-        to bottom,
-        #24aea9 5%,
-        rgb(36, 34, 139) 35% 65%,
-        #73eeea 95%
-      )
-      0 0 0 100%;
     transition: 0.3s ease-in-out 0.2s;
     z-index: 1;
   }
@@ -1631,10 +1614,10 @@ section {
     position: absolute;
     top: 0;
     right: 0;
-    width: 60vmin;
+    width: 400px;
     height: 100%;
-    background-image: url("https://avatars.mds.yandex.net/i?id=f1fdf4d10720b6278f10bdb6a4e4409885ca17a5-8309375-images-thumbs&n=13");
     background-size: cover;
+    background-image: url("./img/Mask Group.jpg");
     transition: 0.3s ease-in-out;
     /* border: 1px solid green; */
   }
@@ -1642,7 +1625,7 @@ section {
   .dots {
     position: absolute;
     bottom: 1rem;
-    right: 2rem;
+    right: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -1654,7 +1637,7 @@ section {
   .dot {
     width: 14px;
     height: 14px;
-    background: rgb(38, 255, 0);
+    background: rgb(238, 212, 15);
     border: none;
     border-radius: 50%;
     transition: 0.3s ease-in-out 0.3s;
@@ -1664,7 +1647,7 @@ section {
     position: absolute;
     top: 0;
     right: 0;
-    width: 60vmin;
+    width: 62vmin;
     height: 100%;
     padding: 3vmin 4vmin;
     background: #fff;
@@ -1676,18 +1659,18 @@ section {
     transform: translateX(-60vmin);
   }
   .wrap:hover .image-content {
-    width: 30vmin;
+    width: 44vmin;
   }
   .wrap:hover .overlay-content {
     border: none;
     transition-delay: 0.2s;
-    transform: translateX(60vmin);
+    /* transform: translateX(60vmin); */
   }
   .wrap:hover .dots {
     transform: translateX(1rem);
   }
   .wrap:hover .dots .dot {
-    background: white;
+    background: rgb(251, 218, 5);
   }
   
   /* Animations and timing delays */
