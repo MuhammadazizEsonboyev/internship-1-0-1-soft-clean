@@ -1,13 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;600;800&display=swap');
-
 * {
     margin: 0;
     position: 0;
     box-sizing: border-box;
 }
+.imgad1{
+  background-image: url("img/КОробка\ 2.png");
+}
+.imgad2{
+  background-image: url("./img/9b6ed914a2bf42ffa01aaa0059f44e5e\ 1\ \(1\).png");
+}
+.imgad3{
+  background-image: url("./img/9b6ed914a2bf42ffa01aaa0059f44e5e\ 1\ \(1\).png");
 
+}
+.imgad4{
+  background-image: url("/img/Перчатки\ 1\ \(1\).png") ;
+
+}
+.backround_img{
+  background-image: url('./img/Фон\ \(2\).png');
+  height: 670px;
+  width: 100%;
+}
 .container3 {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -18,58 +35,28 @@
     font-family: 'Mont';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 100%;
     text-align: right;
-    color: #4B5258;
+    color: #3a3839;
   }
-.logo_one button :hover{
+.logo_one button:hover{
   padding: 20px 20px;
   border: 1px solid #1796fd;
-  border-radius: 100px;
-  font-family: 'Mont';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 100%;
-  text-align: right;
-  color: #11191f;
 }
   .logo_one {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  
+  }  
   .fa-brands {
     font-size: 45px;
   }
-  
+ 
   .fa-whatsapp {
     margin-left: 10px;
 }
-
-.logo_one h2 {
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 140%;
-    color: #43AAFF;
-    margin-left: -35px;
-}
-
-.logo_one p {
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    color: #959A9D;
-    margin-left: -35px;
-}
-
 .logo_one h3 {
     font-family: 'Mont';
     font-style: normal;
@@ -79,7 +66,6 @@
     color: #4B5258;
     margin-left: 15px;
 }
-
 .logo_one h4 {
     font-family: 'Mont';
     font-style: normal;
@@ -88,7 +74,6 @@
     line-height: 100%;
     color: #959A9D;
 }
-
 .logo_one span {
     font-family: 'Mont';
     font-style: normal;
@@ -98,23 +83,19 @@
     text-align: right;
     color: #4B5258;
 }
-
 .circle {
     display: flex;
     align-items: center;
 }
-
 .circle h4 {
     margin-left: 10px;
 }
-
 .same button {
     margin-top: 40px;
     padding: 15px 30px;
     border-radius: 100px;
       border: none;
 }
-
 .same h2 {
     font-family: 'Mont';
     font-style: normal;
@@ -123,7 +104,6 @@
     line-height: 150%;
     color: #4B5258;
 }
-
 .same span {
     font-family: 'Mont';
     font-style: normal;
@@ -132,7 +112,6 @@
     line-height: 150%;
     color: #4B5258;
 }
-
 .same p {
     margin-top: 30px;
     font-family: 'Mont';
@@ -142,7 +121,6 @@
     line-height: 160%;
     color: #4B5258;
 }
-
 .street {
     background: #43AAFF;
     line-height: 150%;
@@ -150,17 +128,16 @@
     font-family: 'Mont';
     text-transform: uppercase;
     color: #FFFFFF;
-    position: absolute;
 width: 297px;
 height: 80px;
 font-size: 13px;
-box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
 border-radius: 100px;
 }
 .long {
   margin-top: 136px !important;
     background: #FFC24D;
-    box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
     font-family: 'Mont';
     font-weight: 600;
     font-size: 13px;
@@ -208,12 +185,12 @@ background: #43AAFF;
 border-radius: 30px;
 box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
 box-shadow: #9c9fa2;
-}
+box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
 
+}
 .box_six:hover{
   opacity: 0.5;
 }
-
 .box_six1{
   width: 278.54px;
   height: 179.13px;
@@ -221,8 +198,8 @@ box-shadow: #9c9fa2;
   box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
   box-shadow: #9c9fa2;
   background: #FFC24D;
+box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
-
 .box_six1:hover{
   opacity: 0.5;
 
@@ -244,10 +221,8 @@ box-shadow: #9c9fa2;
   display: flex;
   gap:45px;
   justify-content: space-around;
-  margin-top: 40px;
+  margin-top: 140px;
 }
-
- 
 @media (max-width:575px) {
   .logo_one button {
     display: none;
@@ -275,10 +250,7 @@ box-shadow: #9c9fa2;
         font-size: 14px;
         text-align: center;
     }
-    /* .same button {
-    margin-left: -12px;
-    } */
- 
+  
     .logo_one h2{
       margin-top: 2px;
       margin-left: 0px;
@@ -332,6 +304,8 @@ box-shadow: #9c9fa2;
   margin-top: 20px;
 } 
 }
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// Dostonjon///////////////// */
+
 
 
 
@@ -793,11 +767,6 @@ section {
 /* Boburs css/////////////////////////// */
 
 
-
-
-
-
-
   @font-face {
     font-family: pop;
     src: url(./fonts/Poppins-Medium.ttf);
@@ -811,6 +780,7 @@ section {
     border-radius: 30px;
     padding: 11px 48px;
     border: none;
+    margin-top: 220px;
     margin-bottom: 20px;
     color: #ffffff;
   }
