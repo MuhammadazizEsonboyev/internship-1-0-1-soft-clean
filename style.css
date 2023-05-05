@@ -4,20 +4,8 @@
     position: 0;
     box-sizing: border-box;
 }
-.imgad1{
-  background-image: url("img/КОробка\ 2.png");
-}
-.imgad2{
-  background-image: url("./img/9b6ed914a2bf42ffa01aaa0059f44e5e\ 1\ \(1\).png");
-}
-.imgad3{
-  background-image: url("./img/9b6ed914a2bf42ffa01aaa0059f44e5e\ 1\ \(1\).png");
 
-}
-.imgad4{
-  background-image: url("/img/Перчатки\ 1\ \(1\).png") ;
 
-}
 .backround_img{
   background-image: url('./img/Фон\ \(2\).png');
   height: 670px;
@@ -48,7 +36,7 @@
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }  
   .fa-brands {
     font-size: 45px;
@@ -103,6 +91,7 @@
     font-size: 30px;
     line-height: 150%;
     color: #4B5258;
+    margin-left: 120px;
 }
 .same span {
     font-family: 'Mont';
@@ -120,6 +109,8 @@
     font-size: 18px;
     line-height: 160%;
     color: #4B5258;
+    margin-left: 120px;
+
 }
 .street {
     background: #43AAFF;
@@ -133,6 +124,8 @@ height: 80px;
 font-size: 13px;
 box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
 border-radius: 100px;
+margin-left: 120px;
+
 }
 .long {
   margin-top: 136px !important;
@@ -148,6 +141,7 @@ border-radius: 100px;
 width: 297px;
 height: 80px;
 border-radius: 100px;
+
 }
 header{
     margin-top: 100px;
@@ -219,9 +213,9 @@ box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
   
 .big_box{
   display: flex;
-  gap:45px;
-  justify-content: space-around;
+  gap:55px;
   margin-top: 140px;
+  justify-content: center;
 }
 @media (max-width:575px) {
   .logo_one button {
