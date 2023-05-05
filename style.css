@@ -1423,6 +1423,7 @@ section {
     height: auto;
     display: flex;
     /* background: #F2F9FF; */
+    background:white; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
