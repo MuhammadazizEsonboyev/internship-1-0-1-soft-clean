@@ -4,8 +4,6 @@
     position: 0;
     box-sizing: border-box;
 }
-
-
 .backround_img{
   background-image: url('./img/Фон\ \(2\).png');
   height: 670px;
@@ -78,6 +76,10 @@
 .circle h4 {
     margin-left: 10px;
 }
+.same{
+margin-top: 100px;
+}
+
 .same button {
     margin-top: 40px;
     padding: 15px 30px;
@@ -91,7 +93,6 @@
     font-size: 30px;
     line-height: 150%;
     color: #4B5258;
-    /* margin-left: 120px; */
 }
 .same span {
     font-family: 'Mont';
@@ -109,7 +110,6 @@
     font-size: 18px;
     line-height: 160%;
     color: #4B5258;
-    /* margin-left: 120px; */
 
 }
 .street {
@@ -124,8 +124,6 @@ height: 80px;
 font-size: 13px;
 box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
 border-radius: 100px;
-/* margin-left: 120px; */
-
 }
 .long {
   margin-top: 136px !important;
@@ -214,7 +212,7 @@ box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.3);
   display: flex;
   gap:55px;
   margin-top: 140px;
-  justify-content: center;
+  justify-content: flex-start;
 }
 @media (max-width:575px) {
   .logo_one button {
