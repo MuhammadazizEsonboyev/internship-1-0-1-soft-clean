@@ -1461,6 +1461,34 @@ section {
     align-items: center;
     flex-wrap: wrap;
   }
+  .hidden{
+display: none;
+  }
+  @media (max-width:576px) {
+    .bigBlueCard {
+      width: 195px !important;
+      height: 100px;
+      background: #43aaff;
+      border-radius: 30px;
+  } 
+  .bigBlueCardText{
+    font-size: 19px;
+  }
+ .image-content{
+  display: none !important;
+ }
+ .overlay{
+  background: rgb(230, 229, 229) !important;
+ }
+
+.hidden{
+  display: block !important;
+  font-size: 14px !important;
+}
+.wordsForAlarm{
+  display:none!important;
+}
+  }
   .containerFactCard .card {
     width: 328px;
     height: 410px;
